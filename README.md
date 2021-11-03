@@ -2,6 +2,9 @@
 
 Projet de fin de formation Coding Academy. Réalisation d'une application web pour la vente en ligne de vinyles.
 
+<h3>Live demo</h3>
+<a href="http://musicme.site">musicme.site</a>
+
 ## Technologies
 
 * MariaDB
