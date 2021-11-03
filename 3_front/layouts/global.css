@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Oxygen";
+    src: local("Oxygen"),
+     url(~assets/Roboto/Roboto-Regular.ttf) format("truetype");
+}
+
+html {
+    font-family: "Roboto";
+}

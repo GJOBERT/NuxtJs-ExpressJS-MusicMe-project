@@ -1,0 +1,28 @@
+2021-01-26 15:53:17.298 4597  -1     ERROR : An exception occurred
+Timeout waiting for exclusive access on SingleInstance
+Type: System.TimeoutException
+	Stack trace
+	   at Quest.Reactive.SingleGlobalInstance..ctor(Int32 timeOut)
+	   at Quest.Reactive.Log.LogLog(LogLevel level, String message, Exception e)
+	   at Quest.Reactive.Log.Error(String errorMessage, Exception e)
+	   at Quest.Reactive.ReactiveTelemetry.SendEventEvent(Guid aSubProduct, DateTime aTimeStamp, EventType aEventType, String aEventText, String aEventValue, Dictionary`2 aAdditionalValues)
+	   at Quest.Reactive.ReactiveTelemetry.ConfigEvent(Guid aSubProduct, DateTime aTimeStamp, String aConfigIdentifier, String aConfigValue, String aVersion, String aTier, Dictionary`2 aAdditionalValues)
+	   at ApexSQL.Common.ReactiveTelemetry.Telemetry.Config(String configName, String value, Dictionary`2 additionalData) in E:\Agent\_work\331\s\Projects\ApexSQL.Common\ReactiveTelemetry\Telemetry.cs:line 48
+
+2021-01-26 15:53:37.315 4597  -1     ERROR : An exception occurred
+Timeout waiting for exclusive access on SingleInstance
+Type: System.TimeoutException
+	Stack trace
+	   at Quest.Reactive.SingleGlobalInstance..ctor(Int32 timeOut)
+	   at Quest.Reactive.Log.LogLog(LogLevel level, String message, Exception e)
+	   at Quest.Reactive.Log.Error(String errorMessage, Exception e)
+	   at Quest.Reactive.ReactiveTelemetry.SendEventEvent(Guid aSubProduct, DateTime aTimeStamp, EventType aEventType, String aEventText, String aEventValue, Dictionary`2 aAdditionalValues)
+	   at Quest.Reactive.ReactiveTelemetry.AppStopEvent(Guid aSubProduct, DateTime aTimeStamp, String aVersion, String aTier, Dictionary`2 aAdditionalValues)
+	   at ApexSQL.Common.ReactiveTelemetry.Telemetry.Stop() in E:\Agent\_work\331\s\Projects\ApexSQL.Common\ReactiveTelemetry\Telemetry.cs:line 282
+
+2021-01-28 18:24:03.181 38360 -1     INFO  [VSCPWRTOOLS: 2020.7.51.0]: OS version: Darwin 20.2.0 Darwin Kernel Version 20.2.0: Wed Dec  2 20:40:21 PST 2020; root:xnu-7195.60.75~1/RELEASE_ARM64_T8101
+2021-01-28 18:24:03.191 38360 -1     INFO  [VSCPWRTOOLS: 2020.7.51.0]: Host application: Visual Studio Code(1.52.0)
+2021-01-28 18:24:03.193 38360 -1     INFO  [VSCPWRTOOLS: 2020.7.51.0]: Initializing addin: ApexSQL Database Power Tools for VS Code 2020.7.51.0
+2021-02-12 15:58:48.175 5426  -1     INFO  [VSCPWRTOOLS: 2020.7.51.0]: OS version: Darwin 20.2.0 Darwin Kernel Version 20.2.0: Wed Dec  2 20:40:21 PST 2020; root:xnu-7195.60.75~1/RELEASE_ARM64_T8101
+2021-02-12 15:58:48.182 5426  -1     INFO  [VSCPWRTOOLS: 2020.7.51.0]: Host application: Visual Studio Code(1.52.0)
+2021-02-12 15:58:48.184 5426  -1     INFO  [VSCPWRTOOLS: 2020.7.51.0]: Initializing addin: ApexSQL Database Power Tools for VS Code 2020.7.51.0
