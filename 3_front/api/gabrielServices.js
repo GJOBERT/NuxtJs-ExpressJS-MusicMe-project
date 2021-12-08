@@ -110,7 +110,7 @@ export default {
 
 	searchProducts (search) {
 		return new Promise((resolve, reject) => {
-			fetch(`http://139.162.164.39:3333/api/products/search`, {
+			fetch(`http://localhost:3333/api/products/search`, {
 
 				method: 'POST',
 				headers: {
